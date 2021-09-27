@@ -1,0 +1,32 @@
+.app-sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    width: 200px;
+    padding: 3rem 1.5rem;
+    background-color: #84728f;
+    font-weight: 900;
+
+    .app-sidebar__navigation_item {
+        display: flex;
+        margin-bottom: 1.5rem;
+
+        span {
+            margin-left: 1rem;
+            vertical-align: middle;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: 0.4s ease-in-out;
+        }
+
+        a:hover {
+            color: #cfcfcf;
+        }
+    }
+}

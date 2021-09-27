@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeyeofsauron=self.webpackChunkeyeofsauron||[]).push([[433],{433:(s,e,a)=>{a.r(e),a.d(e,{default:()=>c});var o=a(893);const c=()=>(0,o.jsx)("div",Object.assign({className:"logs"},{children:"Logs"}),void 0)}}]);

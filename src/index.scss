@@ -1,0 +1,30 @@
+@import './fonts.scss';
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.app-content {
+    flex-grow: 1;
+    margin-left: 200px;
+}
